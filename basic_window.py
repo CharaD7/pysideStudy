@@ -1,7 +1,8 @@
 import sys
 
-from PySide6.QtCore import QSize, Qt
+from PySide6.QtCore import QSize
 from PySide6.QtWidgets import (QApplication, QMainWindow, QPushButton)
+
 
 # Subclass QMainWindow to customize your application's main window
 class MainWindow(QMainWindow):
@@ -25,6 +26,7 @@ class MainWindow(QMainWindow):
 
         # Also change the window title
         self.setWindowTitle("My Oneshot App")
+
 
 app = QApplication(sys.argv)
 
