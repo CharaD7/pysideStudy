@@ -21,7 +21,7 @@ class MainWindow(QMainWindow):
 
     def the_button_was_clicked(self):
         self.button.setText("You already clicked me.")
-        self.button.setEnabled(False)
+        self.button.setEnabled(False)  # disable button after first click
 
         # Also change the window title
         self.setWindowTitle("My Oneshot App")
